@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="appointment">
+      <div class="wrapper appointment-wrapper">
+        <div class="appointment-img">
+          <img src="img/usman-yousaf-pTrhfmj2jDA-unsplash.jpg" alt="">
+        </div>
+        <div class="appointment-form">
+        
+          <form  action="https://formspree.io/f/mgegldqq"
+  method="POST">
+              <h1>Book a doctor</h1>
+            <!-- Name -->
+            <input type="text" placeholder="e.g.Jhon Ahmed" name="your_name">
+        
+            <!-- Email -->
+            <input type="email" placeholder="e.g.example@email.com" name="your_email">
+        
+            <!-- Message -->
+            <textarea name="your_message" cols="30" rows="10" placeholder="Hello i have some issue..."></textarea>
+            <br>
+        
+            <!-- Choose a gender -->
+           <div class="gender-group">
+            <label for="gender" class="gender-label">Choose Gender</label>
+            <div class="gender">
+              <label for="gender">Male</label>
+              <input type="radio" name="gender" value="male">
+              <label for="gender">Female</label>
+              <input type="radio" name="gender" value="female">
+            </div>
+           </div>
+            <br>
+           
+            <!-- Submit  -->
+            <input type="submit" value="Book a call" class="form-btn">
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
