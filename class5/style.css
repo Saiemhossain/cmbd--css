@@ -1,0 +1,338 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+img{
+  max-width: 100%;
+}
+
+.contant{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+a{
+  text-decoration: none;
+  font-size: 36px;
+  color: #21243d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+ /* Navigation Area */
+.nav_area ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav_area ul li a{
+  text-decoration: none;
+  color: #21243d;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.btn-1{
+  font-size: 20px;
+  padding: 10px 15px;
+  background: #21243d;
+  color: #ffffff;
+  border-radius: 10px;
+  line-height: 30px;
+font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+ /* Hero Area */
+
+.hero_area{
+ text-align: center;
+}
+
+
+.hero_area h1{
+  font-size: 44px;
+   font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.hero_area p{
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 20px;
+color: #777777;
+
+}
+span{
+  color: #878cff;
+}
+img{
+  width: 70px;
+}
+.btn-2{
+  background: #878cff;
+  padding:10px 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+  line-height: 30px;
+}
+
+ /* Cover Area */
+.cover_area{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+   width: 1277px;
+ min-height:552px ;  */
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: #878CFF1C ;
+  padding: 140px;
+  margin-top: 15px;
+
+}
+.cover_logo .banner{
+   width: 348px;
+  height: 350px;
+  
+}
+.cover_details{
+  width: 453px;
+  height: 196px;
+  margin: auto;
+}
+.cover_details h2{
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+font-weight: 700;
+line-height: 60px;
+color: #1E1E1E;
+
+}
+.cover_details p{
+  font-family: "Poppins", sans-serif;
+font-weight: 400;
+line-height: 29px;
+color: #535353;
+margin: auto;
+}
+
+.btn-3{
+   background: #878cff;
+  padding:10px 20px;
+  border-radius: 10px;
+ font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  margin: auto;
+  display: block;
+}
+
+ /* Service Area */
+.about-service{
+  display: grid;
+ 
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+.about-service p{
+  color: #21243d;
+  font-family: "Poppins", sans-serif;
+font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-service span{
+  color: #878cff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family:"Poppins", sans-serif; 
+}
+
+.service-img{
+ width: 315px;
+ height: 222px;
+}
+.service-area h2{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-top: 20px;
+ 
+}
+
+ /* Testimonial Area */
+ .testimonial_area{
+  text-align: center;
+margin-bottom: 10px;
+ }
+
+.testimonial-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ width: 900px; 
+
+}
+
+    
+.test-heading{
+  color: #878cff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.item-1{
+  width: 433px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px; 
+ 
+}
+
+.heading-faeture {
+  color: #21243d;
+   font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+}
+
+.item-2{
+   width: 433px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+}
+.feature{
+color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.item-1 p{
+  color:  #6F6F6F;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-2 p{
+  color:  #6F6F6F;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.heading-faeture{
+  text-align: center;
+}
+
+/* Footer Area */
+
+.footer_area{
+  margin-top: 20px;
+  background: #000000;
+  max-width: 100%;
+ padding: 10px 15px;
+text-align: center;
+  
+}
+.social-area i{
+  color: #fff;
+ margin: 5px;
+ height: 15px;
+ width: 15px;
+}
+
+ /* Copyright Area */
+.copyright_area p{
+  color: #fff;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* Responsive Css */
+ @media only screen and (min-width:360px) and (max-width:650px){
+  .contant{
+    flex-direction: column;
+    margin-bottom: 150px;
+    text-align: center;
+  }
+  .hero_area h1{
+    font-size: 35px;
+  }
+  .hero_area p{
+    font-size: 15px;
+  }
+  .cover_area{
+     grid-template-columns: 1fr;
+    max-width: 340px;
+    text-align: center;
+  }
+  .cover_details h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .cover_details p{
+    font-size: 15px; 
+  }
+  .btn-1{
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .btn-2{
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .btn-3{
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .about-service{
+     grid-template-columns: 1fr;
+     width: 340px;
+    margin: auto;
+    text-align: center;
+  }
+  .testimonial_area {
+    text-align: center;
+  }
+  .testimonial-section{
+     grid-template-columns: 1fr;
+     width: 340px;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+  .item-1{
+    width: 310px;
+  }
+  .item-2{
+    width: 310px;
+  }
+  .test-heading{
+    font-size: 25px;
+  }
+ }
+
+
+
