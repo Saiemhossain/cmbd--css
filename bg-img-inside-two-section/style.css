@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  max-width: 1170px;
+  margin:0  auto;
+}
+svg{
+  width: 30px;
+ color: black;
+}
+header{
+background-image: url("https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+} 
+
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  display: flex;
+}
+.nav-icons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-icons svg{
+  width: 25px;
+}
+.nav-icons span{
+  position: relative;
+}
+.nav-icons span{
+  position: absolute;
+  top: 4px;
+  background: black;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 4px9;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+}
+ul li a{
+  font-size: 20px;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+/* Hero Section */
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  text-align: center;
+}
+.hero-container{
+display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: center;
+}
+.btn{
+  background-color: rgb(74, 111, 19);
+  padding: 15px 40px;
+  font-size: 20px;
+  color: white;
+}
+/* Testimonial Section */
+
+.testimonial{
+  background-color: white;
+}
+.testimonial-area{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 200px;
+  margin-top: 50px;
+  
+}
+.testimonial-box img{
+width: 100%;
+}
+
+/* About Section */
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  text-align: center;
+  background-image: url('https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.about-container{
+  display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: center;
+}
+.btn-1{
+  background-color: rgb(57, 233, 57);
+  padding: 15px 40px;
+  color: white;
+}
+
+.about{
+  margin-top: 50px;
+}
+
+@media (max-width:600px) {
+  img{
+    max-width: 100%;
+  }
+ .container{
+  padding: 0 20px;
+ }
+ .logo img{
+width: 90px;
+margin-top: 10px;
+ }
+.header-container{
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+body{
+padding: 0 10px;
+}
+  .testimonial-area{
+    grid-template-columns: 1fr;
+ padding: 0 10px;
+  }
+  svg{
+    display: none;
+  }
+ span{
+    display: none;
+  }
+}
