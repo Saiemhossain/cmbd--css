@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+section{
+  padding: 100px 0;
+}
+header{
+  background-color: rgba(241, 241, 241);
+  padding: 20px 0;
+}
+.logo img{
+max-width: 150px;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 1100px;
+}
+nav{
+  display: flex;
+  gap: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: rgb(64, 62, 62);
+}
+.btn{
+  text-decoration: none;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+.hero{
+    background-color: rgba(241, 241, 241);
+}
+
+.header-wrapper,.hero-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-wrapper{
+  gap: 100px;
+  flex-direction: row-reverse;
+}
+.hero-content{
+  flex-basis: 50%;
+}
+.hero-image{
+  flex-basis: 50%;
+}
+.hero-image img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 10px;
+}
+/* Hero Section */
+/* .hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+.testimonial{
+  text-align: center;
+}
+.service-heading{
+text-align: center;
+}
+.services{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+/* Responsive Css */
+
+@media (max-width:900px) {
+  .wrapper{
+    padding: 0 30px;
+  }
+}
+
+@media (max-width:680px){
+  section{
+    padding: 30px 0;
+  }
+  .header-wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-image img{
+    width: 100%;
+  }
+  .hero-content{
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width:500px){
+.services{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+/* .service img{
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  
+} */
+}
+@media (max-width:260px){
+  /* .btn{
+    display: none;
+  } */
+}
+
