@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -33,10 +33,29 @@ background-image: url("https://websitedemos.net/earth-store-02/wp-content/upload
 }
 nav{
   display: flex;
+  gap: 20px;
+  
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+align-items: center;
+
+}
+
+ul li a{
+  font-size: 20px;
+
+}
+a{
+  text-decoration: none;
 }
 .nav-icons{
   display: flex;
   align-items: center;
+  justify-content:center ;
   gap: 10px;
 }
 .nav-icons svg{
@@ -53,19 +72,8 @@ nav{
   padding: 3px 5px;
   border-radius: 4px9;
 }
-nav ul{
-  list-style: none;
-  display: flex;
-  gap: 20px;
 
-}
-ul li a{
-  font-size: 20px;
 
-}
-a{
-  text-decoration: none;
-}
 
 
 /* Hero Section */
@@ -115,7 +123,7 @@ width: 100%;
   align-items: center;
   height: 650px;
   text-align: center;
-  background-image: url('https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg');
+  background-image: url('img/baner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
  
@@ -135,6 +143,7 @@ align-items: center;
 .about{
   margin-top: 50px;
 }
+Responsive css
 
 @media (max-width:600px) {
   img{
@@ -165,4 +174,8 @@ padding: 0 10px;
  span{
     display: none;
   }
+  .about{
+    background-image: url('img/baner.jpg');
+    background-position: cover;
+}
 }
