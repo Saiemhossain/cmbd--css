@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #f2e9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 20px;
+}
+.img-box{
+  width: 100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background: url(img/maria.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img-box:hover{
+  width: 300px;
+  transition:width 0.5s;
+}
+.img-box:hover h3{
+opacity: 0.9;
+}
+.img-box:nth-child(2){
+  background: url(img/Andre.png);
+    background-size: cover;
+  background-position: center;
+}
+.img-box:nth-child(3){
+  background: url(img/marry.png);
+    background-size: cover;
+  background-position: center;
+}
+.img-box:nth-child(4){
+  background: url(img/sarah.png);
+    background-size: cover;
+  background-position: center;
+}
+
+.img-box h3{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  opacity: 0;
+}
